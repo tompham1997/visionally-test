@@ -13,7 +13,8 @@ struct ModulesAssignmentApp: App {
     
     var body: some Scene {
         Group {
-           AppWindowsScene()
+            AppWindowsScene()
+            AppImmersivesScene()
         }
         .environment(\.appState, appState)
     }

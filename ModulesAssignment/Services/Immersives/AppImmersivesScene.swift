@@ -9,14 +9,14 @@ import SwiftUI
 
 struct AppImmersivesScene: Scene {
     var body: some Scene {
-        
+        saloryImmersive
     }
 }
 
 private extension AppImmersivesScene {
     var saloryImmersive: some Scene {
-        ImmersiveSpace(id: AppImmersiveIDs.salory.rawValue) {
-            ImmersiveView()
+        ImmersiveSpace {
+            SalloryImmersiveView()
         }
     }
 }
